@@ -1,3 +1,17 @@
+//text animations
+var typed = new Typed("#element", {
+  strings: [
+    "an Information Technology Student",
+    "an Aspiring Web Developer",
+    "an Aspiring Application Developer",
+    "a Freelance Graphic Designer",
+    "a Tech Enthusiast",
+  ],
+  typeSpeed: 100,
+  loop: true,
+});
+
+//button functions
 function showSection(sectionId, clickedBtn = null) {
   const sections = ["about", "skills", "education", "certifications"];
   const titleMap = {
@@ -6,6 +20,8 @@ function showSection(sectionId, clickedBtn = null) {
     certifications: "Certification",
     education: "Education",
   };
+
+  //button active state
   sections.forEach((id) => {
     document.getElementById(id).style.display =
       id === sectionId ? "block" : "none";
