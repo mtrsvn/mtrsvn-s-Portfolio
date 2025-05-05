@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mtrsvn's Portfolio</title>
+
+    <!--custom css-->
     <link rel="stylesheet" href="style.css" />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
     <!--bootstrap css-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
@@ -12,7 +18,16 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
-    <!--font awesome cdn-->
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--font awesome-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -20,22 +35,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!--google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
+
     <!--devicon-->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
+
     <!--aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
+
   <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-md fixed-top">
@@ -174,6 +185,7 @@
       <div data-aos="fade-right">
         <section id="about-section" class="about container">
           <div class="row align-items-center">
+            <!--left column-->
             <div class="col-12 col-md-6 text-start">
               <!--buttons-->
               <div class="d-flex gap-2 mb-3">
@@ -209,12 +221,15 @@
               </div>
 
               <div id="content-wrapper" style="min-height: 500px">
+                <!--first view-->
                 <div data-aos="fade-right">
                   <h1 id="section-title" class="display-4 fw-bold">
                     Know me more
                   </h1>
                 </div>
+                <!-- second view-->
 
+                <!--second view-->
                 <div data-aos="fade-right">
                   <div id="about" class="content-section">
                     <h5>
@@ -366,8 +381,11 @@
                     </div>
                   </div>
                 </div>
+                <!--end of second view-->
               </div>
+              <!--end of #content-wrapper-->
             </div>
+            <!--end of left column-->
             <div class="col-12 col-md-6 text-center">
               <div data-aos="fade-left">
                 <img
@@ -378,9 +396,11 @@
               </div>
             </div>
           </div>
+          <!--end of row-->
         </section>
       </div>
     </div>
+    <!--end of third view-->
     <!--end of about-->
 
     <!--project-->
@@ -683,9 +703,8 @@
                                 <div class="timeline-text">
                                   <h6>Small Web Development Projects</h6>
                                   <p class="mb-2 text-secondary">
-                                    Developed small web-based tools, Minecraft
-                                    Profile viewer and a Minecraft server status
-                                    checker, to improve my skills in web
+                                    Developed small web-based tools, Minecraft Profile viewer and a Minecraft server
+                                    status checker, to improve my skills in web
                                     development.
                                   </p>
                                 </div>
@@ -943,26 +962,15 @@
     </footer>
     <!--end of footer-->
 
-    <!--textanimations-->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: [
-          "an Information Technology Student",
-          "an Aspiring Web Developer",
-          "an Aspiring Application Developer",
-          "a Freelance Graphic Designer",
-          "a Tech Enthusiast",
-        ],
-        typeSpeed: 100,
-        loop: true,
-      });
-    </script>
     <!--aos-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+
+    <!--textanimations-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
     <!--bootstrap js-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
@@ -970,11 +978,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="index.js"></script>
-    <!--boostrap js-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
