@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mtrsvn's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <!--font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <!--devicon-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/logo.png"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+          mtrsvn
+        </a>
+
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <input id="checkbox" type="checkbox" />
+          <label class="toggle" for="checkbox">
+            <div id="bar1" class="bars"></div>
+            <div id="bar2" class="bars"></div>
+            <div id="bar3" class="bars"></div>
+          </label>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero-section">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#abouts">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#timeline">Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gear">Setup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end of navbar-->
+
+    <!--hero-->
+    <div data-aos="fade-down">
+      <div id="hero-section" class="hero container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 text-start">
+            <h1 class="display-4 fw-bold">
+              Hi, I'm <span style="color: #8bc6ec">Mark Matthew Masalunga</span>
+            </h1>
+            <h5 class="im">I am <span id="element"></span></h5>
+            <br />
+
+            <!--buttons-->
+            <div class="button">
+              <a
+                class="herobtn"
+                href="doc/CV.png"
+                download="CV.png"
+                role="button"
+                target="_blank"
+              >
+                Download CV &nbsp; <i class="fa-solid fa-file-arrow-down"></i>
+              </a>
+
+              <!--socials-->
+              <a
+                class="socialsbtn"
+                href="https://www.facebook.com/materrr"
+                role="button"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                class="socialsbtn"
+                href="https://www.instagram.com/mtr.svn/"
+                role="button"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                class="socialsbtn"
+                href="https://www.youtube.com/@matersven"
+                role="button"
+                target="_blank"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a
+                class="socialsbtn"
+                href="https://www.linkedin.com/in/mark-matthew-masalunga-953569338/"
+                role="button"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                class="socialsbtn"
+                href="https://github.com/mtrsvn"
+                role="button"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <img
+              src="img/me (2).jpg"
+              alt="Mark Matthew Masalunga"
+              class="hero-img img-fluid shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of hero-->
+
+    <!--about-->
+    <div id="abouts">
+      <div data-aos="fade-right">
+        <section id="about-section" class="about container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 text-start">
+              <!--buttons-->
+              <div class="d-flex gap-2 mb-3">
+                <button
+                  type="button"
+                  class="btn active-btn"
+                  id="about-btn"
+                  onclick="showSection('about', this)"
+                >
+                  Know me more
+                </button>
+                <button
+                  type="button"
+                  class="btn"
+                  onclick="showSection('education', this)"
+                >
+                  Education
+                </button>
+                <button
+                  type="button"
+                  class="btn"
+                  onclick="showSection('certifications', this)"
+                >
+                  Certification
+                </button>
+                <button
+                  type="button"
+                  class="btn"
+                  onclick="showSection('skills', this)"
+                >
+                  Technical Skills
+                </button>
+              </div>
+
+              <div id="content-wrapper" style="min-height: 500px">
+                <div data-aos="fade-right">
+                  <h1 id="section-title" class="display-4 fw-bold">
+                    Know me more
+                  </h1>
+                </div>
+
+                <div data-aos="fade-right">
+                  <div id="about" class="content-section">
+                    <h5>
+                      Welcome to my portfolio! My name is Mark Matthew
+                      Masalunga, also known online as mtrsvn. I am currently in
+                      my second year of college, pursuing a Bachelor of Science
+                      in Information Technology (BSIT). As an aspiring web and
+                      app developer, I am deeply interested in creating dynamic,
+                      user friendly, and efficient web and mobile applications.
+                      I continuously explore new technologies, frameworks, and
+                      best practices to enhance my development capabilities. I
+                      work as a
+                      <a
+                        class="aboutlink"
+                        href="https://matersven.me"
+                        target="_blank"
+                        >freelance graphic designer</a
+                      >. I specialize in creating YouTube thumbnails, posters,
+                      textures, and other visual assets that enhance digital
+                      projects.
+                    </h5>
+                  </div>
+
+                  <!--education-->
+                  <div
+                    id="education"
+                    class="content-section"
+                    style="display: none"
+                  >
+                    <div class="d-flex flex-column gap-3 border p-3 rounded-4">
+                      <div
+                        class="p-3 rounded-4 text-white"
+                        style="background-color: #23272c"
+                      >
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <div>
+                            <strong>NATIONAL UNIVERSITY LIPA</strong><br />
+                            <small>College (2023 - Present)</small><br />
+                            <span
+                              >Bachelor of Science in Information Technology
+                              with the specialization of Mobile and Web
+                              Applications</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="p-3 rounded-4 text-white"
+                        style="background-color: #23272c"
+                      >
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <div>
+                            <strong>CUENCA SENIOR HIGH SCHOOL</strong><br />
+                            <small>Senior High School (2021 - 2023)</small
+                            ><br />
+                            <span
+                              >Humanities and Social Sciences -
+                              <small
+                                >Honor Recognition (Grade 11 & Grade 12)</small
+                              ></span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="p-3 rounded-4 text-white"
+                        style="background-color: #23272c"
+                      >
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <div>
+                            <strong>KALAYAAN CHRISTIAN SCHOOL</strong><br />
+                            <small
+                              >Elementary – High School (2011 - 2021)</small
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--certification-->
+                  <div
+                    id="certifications"
+                    class="content-section"
+                    style="display: none"
+                  >
+                    <div class="d-flex flex-column gap-3 border p-3 rounded-4">
+                      <a
+                        href="https://www.credly.com/badges/86b923ed-21d6-4d37-b9e1-daecdb5d25cd/public_url"
+                        class="p-3 rounded-4 text-center text-light"
+                        target="_blank"
+                        style="background-color: #23272c"
+                      >
+                        IC3 GS6 Level 1 Certification
+                      </a>
+
+                      <a
+                        href="https://www.credly.com/badges/9c9eb7af-0783-4529-a233-2400aab95ccd/public_url"
+                        class="p-3 rounded-4 text-center text-light"
+                        target="_blank"
+                        style="background-color: #23272c"
+                      >
+                        GitHub Foundations
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- skills-->
+                  <div
+                    id="skills"
+                    class="content-section"
+                    style="display: none"
+                  >
+                    <div
+                      class="d-flex flex-wrap gap-2 border p-3 rounded-4 justify-content-center"
+                    >
+                      <div class="skill-icon" data-tooltip="HTML5">
+                        <i class="devicon-html5-plain"></i>
+                      </div>
+                      <div class="skill-icon" data-tooltip="CSS3">
+                        <i class="devicon-css3-plain"></i>
+                      </div>
+                      <div class="skill-icon" data-tooltip="Bootstrap">
+                        <i class="devicon-bootstrap-plain"></i>
+                      </div>
+                      <div class="skill-icon" data-tooltip="JavaScript">
+                        <i class="devicon-javascript-plain"></i>
+                      </div>
+                      <div class="skill-icon" data-tooltip="Java">
+                        <i class="devicon-java-plain"></i>
+                      </div>
+                      <div class="skill-icon" data-tooltip="PHP">
+                        <i class="devicon-php-plain"></i>
+                      </div>
+                      <div class="skill-icon" data-tooltip="MySQL">
+                        <i class="devicon-mysql-original"></i>
+                      </div>
+                      <div class="skill-icon" data-tooltip="Git">
+                        <i class="devicon-git-plain"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+              <div data-aos="fade-left">
+                <img
+                  src="img/coding.jpg"
+                  alt="Mark Matthew Masalunga"
+                  class="about-img img-fluid shadow"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--end of about-->
+
+    <!--project-->
+    <div id="project">
+      <div data-aos="fade-right">
+        <section id="project-section" class="project container pt-5">
+          <div class="row justify-content-center align-items-center">
+            <div class="mb-4"></div>
+            <div class="row g-4">
+              <h1 id="section-title" class="display-4 fw-bold">Projects</h1>
+              <div class="projview">
+                <!--NUtify-->
+                <div class="row g-4">
+                  <div class="col-md-6 d-flex">
+                    <div
+                      data-aos="zoom-in-up"
+                      class="card-wrapper p-3 rounded-4 text-white w-100 d-flex flex-column"
+                    >
+                      <img
+                        src="img/nt.png"
+                        class="img-fluid rounded-3 mb-3"
+                        alt="NUtify Image"
+                      />
+                      <h5 class="fw-bold mb-1">NUtify</h5>
+                      <p class="mb-2 text-secondary" style="font-size: 15px">
+                        Student-Professor Communication App (Group Project)
+                      </p>
+                      <p class="mb-2 text-secondary" style="font-size: 13px">
+                        NUtify is our App Development project, an app designed
+                        for seamless communication between students and
+                        professors. It features real time notifications for
+                        consultation requests and important academic updates,
+                        making school coordination smoother and more efficient.
+                        I contributed by designing the icon of the app, helping
+                        configure Firebase, assisting with backend management,
+                        and working on various other components of the app.
+                      </p>
+                      <div class="tools">
+                        <i class="devicon-xml-plain"></i>
+                        <i class="devicon-java-plain"></i>
+                        <i class="devicon-php-plain"></i>
+                        <i class="devicon-mysql-plain"></i>
+                        <i class="devicon-git-plain"></i>
+                        <i class="devicon-firebase-plain"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--StridenCount-->
+                  <div class="col-md-6 d-flex">
+                    <div
+                      data-aos="zoom-in-up"
+                      class="card-wrapper p-3 rounded-4 text-white w-100 d-flex flex-column"
+                    >
+                      <img
+                        src="img/st.png"
+                        class="img-fluid rounded-3 mb-3"
+                        alt="Speedify Image"
+                      />
+                      <h5 class="fw-bold mb-1">Stridencount</h5>
+                      <p class="mb-2 text-secondary" style="font-size: 15px">
+                        Steps, Burned Calories and Distance Tracker App (Group
+                        Project)
+                      </p>
+                      <p class="mb-2 text-secondary" style="font-size: 13px">
+                        Stridencount is our OOP project, an easy-to-use app that
+                        tracks steps, calories burned, and distance traveled. It
+                        helps users monitor their fitness progress while
+                        showcasing our understanding of object-oriented
+                        programming concepts. I contributed to various aspects
+                        of the project, helping with functionality and ensuring
+                        a smooth user experience.
+                      </p>
+                      <div
+                        class="d-flex justify-content-between align-items-center mt-auto"
+                      >
+                        <div class="tools">
+                          <i class="devicon-xml-plain"></i>
+                          <i class="devicon-java-plain"></i>
+                        </div>
+                        <div class="project-button d-flex gap-2">
+                          <button
+                            type="button"
+                            class="btn btn-outline-light"
+                            onclick="window.open('https://github.com/mtrsvn/Stridencount', '_blank')"
+                          >
+                            GitHub
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--mineview-->
+                  <div class="col-md-6 d-flex">
+                    <div
+                      data-aos="zoom-in-up"
+                      class="card-wrapper p-3 rounded-4 text-white w-100 d-flex flex-column"
+                    >
+                      <img
+                        src="img/mv.png"
+                        class="img-fluid rounded-3 mb-3"
+                        alt="Minewatch Image"
+                      />
+                      <h5 class="fw-bold mb-1">Mineview</h5>
+                      <p class="mb-2 text-secondary" style="font-size: 15px">
+                        Minecraft Profile Viewer (Personal Project)
+                      </p>
+                      <p class="mb-2 text-secondary" style="font-size: 13px">
+                        A small web based tool that allows users to view
+                        Minecraft player profiles for both Java Edition and
+                        Bedrock Edition. It fetches player information such as
+                        username, UUID/XUID, and view of their skin. Users can
+                        also download the skin directly.
+                      </p>
+                      <div
+                        class="d-flex justify-content-between align-items-center mt-auto"
+                      >
+                        <div class="tools">
+                          <i class="devicon-html5-plain"></i>
+                          <i class="devicon-css3-plain"></i>
+                          <i class="devicon-bootstrap-plain"></i>
+                          <i class="devicon-javascript-plain"></i>
+                        </div>
+                        <div class="project-button d-flex gap-2">
+                          <button
+                            type="button"
+                            class="btn btn-outline-light"
+                            onclick="window.open('https://github.com/mtrsvn/Mineview', '_blank')"
+                          >
+                            GitHub
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-light"
+                            onclick="window.open('https://mtrsvn.github.io/Mineview/', '_blank')"
+                          >
+                            Website
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--minewatch-->
+                  <div class="col-md-6 d-flex">
+                    <div
+                      data-aos="zoom-in-up"
+                      class="card-wrapper p-3 rounded-4 text-white w-100 d-flex flex-column"
+                    >
+                      <img
+                        src="img/mw.png"
+                        class="img-fluid rounded-3 mb-3"
+                        alt="Minewatch Image"
+                      />
+                      <h5 class="fw-bold mb-1">Minewatch</h5>
+                      <p class="mb-2 text-secondary" style="font-size: 15px">
+                        Minecraft Server Status Checker (Personal Project)
+                      </p>
+                      <p class="mb-2 text-secondary" style="font-size: 13px">
+                        A small web tool that checks and displays the status of
+                        Minecraft servers in real-time.
+                      </p>
+                      <div
+                        class="d-flex justify-content-between align-items-center mt-auto"
+                      >
+                        <div class="tools">
+                          <i class="devicon-html5-plain"></i>
+                          <i class="devicon-css3-plain"></i>
+                          <i class="devicon-javascript-plain"></i>
+                        </div>
+                        <div class="project-button d-flex gap-2">
+                          <button
+                            type="button"
+                            class="btn btn-outline-light"
+                            onclick="window.open('https://github.com/mtrsvn/Minewatch', '_blank')"
+                          >
+                            GitHub
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-light"
+                            onclick="window.open('https://mtrsvn.github.io/Minewatch/', '_blank')"
+                          >
+                            Website
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--end of project-->
+
+    <!--timeline-->
+    <div id="timeline">
+      <div data-aos="fade-right">
+        <section id="timeline-section" class="timeline container pt-5">
+          <div class="row align-items-center">
+            <div class="mb-4"></div>
+            <div class="row g-4">
+              <div class="mb-4">
+                <h1 id="section-title" class="display-4 fw-bold">
+                  Journey So Far
+                </h1>
+              </div>
+
+              <div data-aos="fade-right">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-12 col-sm-8 col-lg-6"></div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="apland-timeline-area">
+                        <div class="single-timeline-area">
+                          <div
+                            class="timeline-date wow fadeInLeft"
+                            data-wow-delay="0.1s"
+                          >
+                            <p>2025</p>
+                          </div>
+                          <div class="row">
+                            <!--NUtify-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.3s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-address-card"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>
+                                    First Mobile Application with Backend
+                                    Integration
+                                  </h6>
+                                  <p class="mb-2 text-secondary">
+                                    <a
+                                      href="#project"
+                                      style="
+                                        color: #8bc6ec;
+                                        text-decoration: none;
+                                      "
+                                    >
+                                      NUtify
+                                    </a>
+                                    | Contributed to development, led icon
+                                    design, and assisted Firebase, and supported
+                                    frontend, and backend.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!--github-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.5s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-archive"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>GitHub Foundations Certification</h6>
+                                  <p class="mb-2 text-secondary">
+                                    Completed GitHub Foundations Certification,
+                                    strengthening skills in version control,
+                                    collaboration, and repository management.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!--html-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.7s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-picture-o"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>Small Web Development Projects</h6>
+                                  <p class="mb-2 text-secondary">
+                                    Developed small web-based tools, Minecraft
+                                    Profile viewer and a Minecraft server status
+                                    checker, to improve my skills in web
+                                    development.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="single-timeline-area">
+                          <div
+                            class="timeline-date wow fadeInLeft"
+                            data-wow-delay="0.1s"
+                          >
+                            <p class="timeline-year">2024</p>
+                          </div>
+
+                          <!-- virtualpet-->
+                          <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.3s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-briefcase"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>
+                                    Small Java Projects with OOP Implementation
+                                  </h6>
+                                  <p class="mb-2 text-secondary">
+                                    Developed several Java games such as Bingo,
+                                    Color Game, and a pet simulator using OOP
+                                    principles.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!--stridencount-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.5s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-desktop"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>First Mobile Application</h6>
+                                  <p class="mb-2 text-secondary">
+                                    <a
+                                      href="#project"
+                                      style="
+                                        color: #8bc6ec;
+                                        text-decoration: none;
+                                      "
+                                    >
+                                      Stridencount
+                                    </a>
+                                    | Developed a mobile fitness app that tracks
+                                    steps, distance, and calories burned, using
+                                    OOP for efficient and scalable feature
+                                    implementation.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!--soits-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.7s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-certificate"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>
+                                    SOITS - Society of Information Technology
+                                    Students
+                                  </h6>
+                                  <p class="mb-2 text-secondary">
+                                    Joined NU Lipa's IT organization as a
+                                    Creative Director Assistant, supporting
+                                    visual content and event media.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!--ic3-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.7s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-certificate"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>IC3 GS6 Level 1 Certification</h6>
+                                  <p class="mb-2 text-secondary">
+                                    Earned the IC3 GS6 Level 1 certification,
+                                    validating fundamental digital skills
+                                    including computing, internet use, and
+                                    productivity applications.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!--c++-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.7s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-certificate"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>Small C++ Projects</h6>
+                                  <p class="mb-2 text-secondary">
+                                    Worked on small C++ projects to enhance
+                                    skills in algorithms, array manipulation,
+                                    file handling, and core programming
+                                    concepts.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="single-timeline-area">
+                          <div
+                            class="timeline-date wow fadeInLeft"
+                            data-wow-delay="0.1s"
+                          >
+                            <p class="timeline-year">2023</p>
+                          </div>
+
+                          <div class="row">
+                            <!--java-->
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.7s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-picture-o"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>Small Java Projects</h6>
+                                  <p class="mb-2 text-secondary">
+                                    Worked on small Java projects like a basic
+                                    calculator and simple command-line
+                                    applications to practice and solidify my
+                                    understanding of Java.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--end of timeline-->
+
+    <!--gear-->
+    <div id="gear">
+      <div data-aos="fade-right">
+        <section id="gear-section" class="gear container">
+          <div class="row align-items-center">
+            <div class="row g-4">
+              <h1 id="section-title" class="display-4 fw-bold">My Setup</h1>
+              <div data-aos="fade-right">
+                <h3>Hardware</h3>
+                <ul>
+                  <li>
+                    <a
+                      href="https://store.acer.com/en-ph/nitro-5-an515-58-55lg?srsltid=AfmBOopkmxj1kgiKRDXpteSzdbIvcoyFQDpWVVR7on2uGonI8Scwzsbd"
+                      target="_blank"
+                      >Laptop: Nitro Acer 5 AN515-58; RTX 3050; 16GB RAM; 1 TB +
+                      512 GB SSD
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </li>
+                  <li>Keyboard: CIY Tester68 GK68; KTT Peaches</li>
+                  <li>Mouse: Fantech Venom II WGC2</li>
+                  <li>
+                    <a
+                      href="https://www.amazon.com/SAMSUNG-Portable-SSD-1TB-MU-PC1T0T/dp/B0874XN4D8"
+                      target="_blank"
+                      >External Storage: Samsung T7 Portable SSD; 1TB
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div data-aos="fade-right">
+                <h3>Software & Tools</h3>
+                <ul>
+                  <li>
+                    Code Editors: Android Studio, Apache NetBeans, Visual Studio
+                    Code
+                  </li>
+                  <li>Hosting Services: GitHub Pages, Hostinger, Namecheap</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--end of gear-->
+
+    <!--footer-->
+    <footer class="footer">
+      <p class="copyright">Mark Matthew Masalunga</p>
+      <p class="email">
+        <i class="fa-solid fa-square-envelope"></i>
+        masalungamg@students.nu-lipa.edu.ph
+      </p>
+
+      <p class="msg">Made with Love</p>
+    </footer>
+    <!--end of footer-->
+
+    <!--textanimations-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "an Information Technology Student",
+          "an Aspiring Web Developer",
+          "an Aspiring Application Developer",
+          "a Freelance Graphic Designer",
+          "a Tech Enthusiast",
+        ],
+        typeSpeed: 100,
+        loop: true,
+      });
+    </script>
+    <!--aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--bootstrap js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    <!--boostrap js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
