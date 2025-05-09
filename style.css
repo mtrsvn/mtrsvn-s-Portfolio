@@ -300,6 +300,38 @@ body {
 .tools {
   font-size: 50px;
 }
+.carousel-item {
+  transition: none !important;
+}
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  position: relative;
+  display: inline-block;
+  transform: scale(1);
+}
+.carousel-indicators button:hover {
+  border: none;
+  transform: scale(1);
+}
+.carousel-indicators button.active {
+  background-color: #eee;
+}
+
+.carousel-indicators button:focus {
+  outline: none;
+}
+.carousel-indicators button:not(.active):hover {
+  transform: scale(1);
+}
 
 /**timeline**/
 .timeline {

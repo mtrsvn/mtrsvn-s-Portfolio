@@ -117,7 +117,7 @@
             <div class="button">
               <a
                 class="herobtn"
-                href="doc/CV.png"
+                href="doc/Mark Matthew Masalunga CV.pdf"
                 download="CV.png"
                 role="button"
                 target="_blank"
@@ -209,7 +209,7 @@
                   class="btn"
                   onclick="showSection('certifications', this)"
                 >
-                  Certification
+                  Certifications
                 </button>
                 <button
                   type="button"
@@ -324,26 +324,109 @@
                     class="content-section"
                     style="display: none"
                   >
-                    <div class="d-flex flex-column gap-3 border p-3 rounded-4">
-                      <a
-                        href="https://www.credly.com/badges/86b923ed-21d6-4d37-b9e1-daecdb5d25cd/public_url"
-                        class="p-3 rounded-4 text-center text-light"
-                        target="_blank"
-                        style="background-color: #23272c"
+                    <div id="certificationCarousel" class="carousel slide">
+                      <div
+                        class="carousel-indicators"
+                        style="
+                          position: relative;
+                          margin-top: -10px;
+                          text-align: center;
+                        "
                       >
-                        IC3 GS6 Level 1 Certification
-                      </a>
+                        <button
+                          type="button"
+                          data-bs-target="#certificationCarousel"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                          style="
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                            background-color: #6c757d;
+                          "
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#certificationCarousel"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                          style="
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                            background-color: #6c757d;
+                          "
+                        ></button>
+                      </div>
 
-                      <a
-                        href="https://www.credly.com/badges/9c9eb7af-0783-4529-a233-2400aab95ccd/public_url"
-                        class="p-3 rounded-4 text-center text-light"
-                        target="_blank"
-                        style="background-color: #23272c"
-                      >
-                        GitHub Foundations
-                      </a>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div
+                            class="d-flex flex-column gap-3 border p-3 rounded-4"
+                          >
+                            <a
+                              href="https://www.credly.com/badges/86b923ed-21d6-4d37-b9e1-daecdb5d25cd/public_url"
+                              class="p-3 rounded-4 text-center text-light"
+                              target="_blank"
+                              style="background-color: #23272c"
+                            >
+                              IC3 GS6 Level 1 Certification - Certiport
+                            </a>
+                            <a
+                              href="https://www.credly.com/badges/9c9eb7af-0783-4529-a233-2400aab95ccd/public_url"
+                              class="p-3 rounded-4 text-center text-light"
+                              target="_blank"
+                              style="background-color: #23272c"
+                            >
+                              GitHub Foundations - GitHub
+                            </a>
+                            <a
+                              href="https://www.codecred.dev/verify/3f9b5124-4a58-42b4-af97-06ac84a9d78d"
+                              class="p-3 rounded-4 text-center text-light"
+                              target="_blank"
+                              style="background-color: #23272c"
+                            >
+                              HTML Fundamentals - CodeCred
+                            </a>
+                            <a
+                              href="https://www.codecred.dev/verify/ff68737e-ed2f-44f2-897b-5bfd00e0e70f"
+                              class="p-3 rounded-4 text-center text-light"
+                              target="_blank"
+                              style="background-color: #23272c"
+                            >
+                              CSS Mastery - CodeCred
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                          <div
+                            class="d-flex flex-column gap-3 border p-3 rounded-4"
+                          >
+                            <a
+                              href="https://www.codecred.dev/verify/f208d84f-dfdf-41f6-a45e-3e43bfae04a5"
+                              class="p-3 rounded-4 text-center text-light"
+                              target="_blank"
+                              style="background-color: #23272c"
+                            >
+                              Bootstrap Essentials - CodeCred
+                            </a>
+                            <a
+                              href="https://www.codecred.dev/verify/5148eb37-efc1-484c-9684-d88789211a9e"
+                              class="p-3 rounded-4 text-center text-light"
+                              target="_blank"
+                              style="background-color: #23272c"
+                            >
+                              SQL Fundamentals - CodeCred
+                            </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  <!--end of certifications-->
 
                   <!-- skills-->
                   <div
@@ -703,9 +786,33 @@
                                 <div class="timeline-text">
                                   <h6>Small Web Development Projects</h6>
                                   <p class="mb-2 text-secondary">
-                                    Developed small web-based tools, Minecraft Profile viewer and a Minecraft server
-                                    status checker, to improve my skills in web
+                                    Developed small web-based tools, Minecraft
+                                    Profile viewer and a Minecraft server status
+                                    checker, to improve my skills in web
                                     development.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.7s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-picture-o"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>CodeCred Certifications</h6>
+                                  <p class="mb-2 text-secondary">
+                                    Completed CodeCred certifications to
+                                    strengthen core web development skills,
+                                    covering HTML, CSS, Bootstrap, and SQL
+                                    fundamentals.
                                   </p>
                                 </div>
                               </div>
@@ -721,8 +828,41 @@
                             <p class="timeline-year">2024</p>
                           </div>
 
-                          <!-- virtualpet-->
+                          
                           <div class="row">
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.7s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-certificate"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
+                                  <h6>My First Website</h6>
+                                  <p class="mb-2 text-secondary">
+                                    <a
+                                      href="http://matersven.me"
+                                      style="
+                                        color: #8bc6ec;
+                                        text-decoration: none;
+                                      "
+                                      target="_blank"
+                                      >matersven.me</a
+                                    >
+                                    | Created my first website, to showcase my
+                                    art commission portfolio. It’s a platform to
+                                    display my design work and connect with
+                                    potential clients.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            
                             <div class="col-12 col-md-6 col-lg-4">
                               <div
                                 class="single-timeline-content d-flex wow fadeInLeft"
@@ -878,6 +1018,28 @@
                                   ></i>
                                 </div>
                                 <div class="timeline-text">
+                                  <h6>My First Hello World</h6>
+                                  <p class="mb-2 text-secondary">
+                                    Wrote my first "Hello, World" which served
+                                    as an introduction to basic coding concepts
+                                    and the syntax of my chosen programming
+                                    language.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                              <div
+                                class="single-timeline-content d-flex wow fadeInLeft"
+                                data-wow-delay="0.7s"
+                              >
+                                <div class="timeline-icon">
+                                  <i
+                                    class="fa fa-picture-o"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                                <div class="timeline-text">
                                   <h6>Small Java Projects</h6>
                                   <p class="mb-2 text-secondary">
                                     Worked on small Java projects like a basic
@@ -940,7 +1102,10 @@
                     Code Editors: Android Studio, Apache NetBeans, Visual Studio
                     Code
                   </li>
-                  <li>Hosting Services: GitHub Pages, Hostinger, Namecheap</li>
+                  <li>
+                    Hosting Services: GitHub Pages, Hostinger, Namecheap,
+                    Name.com
+                  </li>
                 </ul>
               </div>
             </div>

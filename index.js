@@ -17,7 +17,7 @@ function showSection(sectionId, clickedBtn = null) {
   const titleMap = {
     about: "Know me more",
     skills: "Technical Skills",
-    certifications: "Certification",
+    certifications: "Certifications",
     education: "Education",
   };
 
@@ -38,3 +38,4 @@ function showSection(sectionId, clickedBtn = null) {
 window.onload = () => {
   showSection("about", document.getElementById("about-btn"));
 };
+
